@@ -1,5 +1,3 @@
 str1=input('')
-if str1==str1[::-1]:
-    print('palindrom')
-else:
-    print('no palindrom')
+str2=str1.replace(" ","")
+print(str2)
